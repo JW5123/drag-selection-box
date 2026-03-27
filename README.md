@@ -1,6 +1,6 @@
 # drag-selection-box
 
-使用 [dragselect](https://github.com/thibaultjanbeyer/dragselect) 套件，並從單一 `index` 入口進入網頁。
+使用 [dragselect](https://github.com/thibaultjanbeyer/dragselect) 套件進行選取框測試。
 
 三種測試模式：
 
