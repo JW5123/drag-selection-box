@@ -1,6 +1,6 @@
 # drag-selection-box
 
-改為使用 [dragselect](https://github.com/thibaultjanbeyer/dragselect) 套件，並改成單一 `index` 入口。
+使用 [dragselect](https://github.com/thibaultjanbeyer/dragselect) 套件，並從單一 `index` 入口進入網頁。
 
 三種測試模式：
 
@@ -20,17 +20,17 @@ npm install
 npm start
 ```
 
-預設會在 `http://localhost:4173` 啟動。
+預設會在 `http://localhost:3000` 啟動。
 
 ## 進入方式
 
-- `http://localhost:4173/`
+- `http://localhost:3000/`
 
 頁面上方分頁按鈕使用同一份邏輯產生（依 query `mode` 切換）：
 
-- `http://localhost:4173/?mode=vertical`
-- `http://localhost:4173/?mode=horizontal`
-- `http://localhost:4173/?mode=mixed`
+- `http://localhost:3000/?mode=vertical`
+- `http://localhost:3000/?mode=horizontal`
+- `http://localhost:3000/?mode=mixed`
 
 ## 檔案結構
 
@@ -46,3 +46,4 @@ npm start
 - `Ctrl`/`Cmd`/`Shift` 多選
 - 自動捲動（靠近容器邊緣時）
 - 清空選取
+- 選取起始位置
