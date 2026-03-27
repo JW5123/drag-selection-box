@@ -1,0 +1,25 @@
+{
+  "name": "drag-selection-box",
+  "version": "1.0.0",
+  "description": "DragSelect horizontal, vertical, and mixed selection test pages",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "npx serve . -l 4173",
+    "test": "echo \"Manual browser tests only\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JW5123/drag-selection-box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JW5123/drag-selection-box/issues"
+  },
+  "homepage": "https://github.com/JW5123/drag-selection-box#readme",
+  "dependencies": {
+    "dragselect": "^3.1.2"
+  }
+}

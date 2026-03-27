@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DragSelect 測試首頁</title>
+    <link rel="stylesheet" href="./css/app.css" />
+</head>
+
+<body>
+    <div class="layout">
+        <h1 id="pageTitle">DragSelect 測試</h1>
+        <div class="topbar">
+            <div id="scenarioLinks" class="links"></div>
+            <label class="control" for="dragStartRule">
+                起始位置
+                <select id="dragStartRule">
+                    <option value="card-or-gap">卡片或空白皆可開始</option>
+                    <option value="gap-only">只能從空白處開始</option>
+                </select>
+            </label>
+            <label class="control" for="edgeSpeed">
+                邊緣速度
+                <input id="edgeSpeed" type="range" min="1" max="30" step="1" />
+            </label>
+            <div id="edgeSpeedValue" class="speed-value">0</div>
+            <div class="hint">操作: 拖曳框選，按住 Ctrl/Cmd/Shift 可疊加多選，Esc 清除選取</div>
+        </div>
+        <div class="status" id="testStatus">目前選取: 0</div>
+        <div id="testShell" class="shell">
+            <div id="testBoard" class="board"></div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
