@@ -1,4 +1,4 @@
-import DragSelect from '../node_modules/dragselect/dist/DragSelect.esm.js';
+import DragSelect from 'dragselect';
 
 function createCards(board, total, prefix) {
   for (let i = 1; i <= total; i += 1) {
