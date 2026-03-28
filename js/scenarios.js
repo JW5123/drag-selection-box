@@ -8,7 +8,7 @@ export const SCENARIOS = [
     count: 220,
     prefix: 'V',
     selectionThreshold: 0,
-    autoScrollSpeed: 10,
+    autoScrollSpeed: 12,
     overflowTolerance: { x: 24, y: 36 }
   },
   {
@@ -20,7 +20,7 @@ export const SCENARIOS = [
     count: 180,
     prefix: 'H',
     selectionThreshold: 0,
-    autoScrollSpeed: 10,
+    autoScrollSpeed: 12,
     overflowTolerance: { x: 40, y: 24 }
   },
   {
@@ -32,7 +32,7 @@ export const SCENARIOS = [
     count: 320,
     prefix: 'M',
     selectionThreshold: 0,
-    autoScrollSpeed: 10,
+    autoScrollSpeed: 12,
     overflowTolerance: { x: 32, y: 32 }
   }
 ];
