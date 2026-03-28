@@ -17,42 +17,20 @@ npm install
 ## 啟動測試頁
 
 ```bash
-npm run dev
+npm start
 ```
 
-預設會在 `http://localhost:5173` 啟動。
-
-## 打包
-
-```bash
-npm run build
-```
-
-打包輸出目錄為 `dist/`，可直接部署到 Vercel。
-
-## 部署
-
-### Vercel
-
-- 已提供 `vercel.json`
-- Build Command: `npm run build`
-- Output Directory: `dist`
-
-### Netlify
-
-- 已提供 `netlify.toml`
-- Build Command: `npm run build`
-- Publish directory: `dist`
+預設會在 `http://localhost:3000` 啟動。
 
 ## 進入方式
 
-- `http://localhost:5173/`
+- `http://localhost:3000/`
 
 頁面上方分頁按鈕使用同一份邏輯產生（依 query `mode` 切換）：
 
-- `http://localhost:5173/?mode=vertical`
-- `http://localhost:5173/?mode=horizontal`
-- `http://localhost:5173/?mode=mixed`
+- `http://localhost:3000/?mode=vertical`
+- `http://localhost:3000/?mode=horizontal`
+- `http://localhost:3000/?mode=mixed`
 
 ## 檔案結構
 
